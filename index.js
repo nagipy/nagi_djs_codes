@@ -1,5 +1,5 @@
 const { Client } = require("discord.js")
-const { token } = require("./config.json")
+require("dotenv").config();
 const client = new Client;
 
 client.on("ready", () => {
@@ -17,4 +17,4 @@ client.on("ready", () => {
  console.log(client.user.tag + " login")
 })
 
-client.login(token)
+client.login(process.env.token)
