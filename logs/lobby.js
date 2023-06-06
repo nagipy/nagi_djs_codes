@@ -1,10 +1,9 @@
 const { MessageEmbed } = require("discord.js")
-const { logs } = reuqire("./config.json")
 
 module.exports = client => {
   
   client.on("guildMemberAdd", member => {
-    const channel = client.channels.cache.get(logs)
+    const channel = client.channels.cache.get(process.env.logs)
     
     const embed = new MessageEmbed()
     .setColor("GREEN")
