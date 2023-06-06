@@ -15,7 +15,7 @@ module.exports = client => {
   })
   
  client.on("guildMemberRemove", member => {
-  const channel = client.channels.cache.get(logs)
+  const channel = client.channels.cache.get(process.env.logs)
   
   const embed　= new MessageEmbed()
   .setColor("RED")
