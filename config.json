@@ -1,5 +1,0 @@
-{
- token="Your bot token",
- prefix="!",
- logs="get the log send channelId"
-}
