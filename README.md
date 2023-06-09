@@ -22,7 +22,7 @@ npm i discord.js@12.5.3 dotenv yt-search
 \
 ・Youtube 検索
 \
-・メッセージ削除(内容取得)
+・メッセージ削除検知(内容取得)
 
  制作中の機能一覧
 \
