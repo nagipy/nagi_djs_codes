@@ -8,4 +8,8 @@ module.exports = client => {
  voice(client)
  const user = require("./logs/user.js")
  user(client)
+ const message = require("./logs/message.js")
+ message(client)
+ const invite = require("./logs/invite.js")
+ invite(client)
 }
